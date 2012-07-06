@@ -1,0 +1,6 @@
+This collection of scripts was heavily inspired, ok, lifted from Ryan Bates' Capistrano Recipes podcast.
+
+I've modified them so that the deployment user is no longer required to have sudo access.  
+
+These scripts were test on Linode Ubuntu 12.04 hosts which allow root logins and nothing else! YMMV 
+
