@@ -1,0 +1,8 @@
+#User alias 
+User_Alias    APP_USER = <%= deploy_user %>
+
+#Command alias
+Cmnd_Alias    APP =/etc/init.d/unicorn_<%= application %>
+
+#app user can now start and stop app server
+APP_USERS     ALL = NOPASSWD: APP
