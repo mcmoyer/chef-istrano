@@ -27,6 +27,7 @@ BASHRC
     end
     run "rbenv install #{ruby_version}"
     run "rbenv global #{ruby_version}"
+    run "echo 'gem: --no-ri --no-rdoc' > ~/.gemrc"
     run "gem install bundler --no-ri --no-rdoc"
     run "rbenv rehash"
   end
